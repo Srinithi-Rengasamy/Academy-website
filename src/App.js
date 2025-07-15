@@ -8,7 +8,7 @@ import  Branches from './components/branches/branches';
 import  Gallery from './components/gallery/gallery';
 import  Contact from './components/contact/contact';
 import Videos from './components/videos/videos';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter , Route, Routes} from 'react-router-dom';
 function App() {
   return (
    <>
