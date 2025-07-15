@@ -19,7 +19,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Router>
+    <App/>
+   {/* <Router>
 			<Routes>
       <Route path='/' element={<Home/>} exact/>
       <Route path='/home' element={<Home/>} exact/>
@@ -32,7 +33,7 @@ root.render(
       <Route path='/videos' element={<Videos/>} exact/>
       <Route path='/shop' element={<Shop/>} exact/>
     	</Routes>
-		</Router>
+		</Router> */}
   </React.StrictMode>
 );
 
