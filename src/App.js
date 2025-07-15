@@ -13,14 +13,6 @@ import { HashRouter , Route, Routes} from 'react-router-dom';
 function App() {
   return (
    <>
-   {/* <Home/>
-   <About/>
-   <Classes/>
-   <Course/>
-   <Branches/>
-   <Gallery/>
-   <Contact/>
-   <Videos/> */}
    <HashRouter>
    <Routes>
       <Route path='/' element={<Home/>} exact/>
