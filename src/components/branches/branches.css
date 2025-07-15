@@ -1,0 +1,53 @@
+.branches .nav-link{
+	border: 2px solid #df3431;
+	border-radius: 25px;
+    padding:15px 30px ;
+	color:#df3431 ;	
+	font-size:16px;
+}
+.nav-link.active, .nav-link:hover {
+    background-color: #df3431;
+    color: #fff !important;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    background-color: #df3431 ;
+}
+ul#uncontrolled-tab-example {
+    justify-content: space-evenly;
+}
+.branches .nav-tabs {
+    --bs-nav-tabs-border-width:none;
+}
+.tab-content>.active {
+    display: block;
+    padding: 40px;
+}
+li::marker {
+    color: #df3431;
+	font-size:16px;
+}
+.branches-content {
+    padding: 20px;
+    margin-left: 50px;
+    margin-bottom: 0;
+}
+.branches-content li {
+    color: #121212;
+    font-size: 18px;
+    line-height: 1.4;
+    list-style-type: disclosure-closed;
+    padding: 10px 0px;
+}
+.branches-content li a {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.innerpage_wrapper{
+	padding: 80px 0px;
+}
+@media (max-width: 767px){
+.branches .nav-item{
+    margin: 15px;
+}
+}

@@ -1,0 +1,35 @@
+ /*-- contact section start --*/
+ 
+ .contact{
+	text-align:center;
+}
+   .contact   h1{
+            font-size: 30px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            margin: 0px 0px 25px;
+            font-family: poppins;
+            line-height: 1.4;
+         }
+         .contact-details {
+            border: 2px solid #df3431;
+            border-radius: 25px;
+            padding: 30px 15px;
+         }
+            .contact-details li{
+               list-style-type: none;
+               padding-bottom:15px
+            }
+            .contact-details  h4{
+               padding-bottom:10px;
+               font-size: 24px;
+               color:#191919;
+            }
+         
+
+
+@media (max-width: 767px){
+.contact h1 {
+   font-size: 21px;
+}
+}
